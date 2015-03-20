@@ -1,0 +1,15 @@
+alias cdb='cd $OLDPWD'
+
+alias qqc='grc -c ~/.grc/conf.qq qq'
+
+
+alias glvmd='vglrun vmd'
+alias ll='ls --color -h1'
+alias la='ls --color -a'
+alias lla='ls --color -l'
+
+
+alias ldu='du --max-depth=0 -ch $(du --max-depth=1 -c ./ | sort -g | cut -f2 | grep -v total ) '
+
+
+alias fastgo='. fastgo'
